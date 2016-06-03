@@ -72,7 +72,7 @@ window.__code = 'function Contributing_to (openSource) {\n' +
   '      // GNU GPLv3\n' +
   '    clearDocumentation()\n' +
   '      // Installation Instructions (README)\n' +
-  '      // Changelog (README or CHANGELOG)\n' ++
+  '      // Changelog (README or CHANGELOG)\n' +
   '        // How to file an issue\n' +
   '        // What to include\n' +
   '        // How to contribute code\n' +
