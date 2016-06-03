@@ -12,6 +12,8 @@
 - [ ] Clear Documentation
   - [OSS Manifesto](http://ossmanifesto.org/)
   - [doc-squad](http://c4sf.me/docsquad)
+- [ ] Code of Conduct
+  - [Contributor Covenant](http://contributor-covenant.org/)
 - [ ] Testing
   - Unit (Tap, Tape, Ava, Mocha)
   - End to End (Nightwatch, Browserstack, Intern.io)
