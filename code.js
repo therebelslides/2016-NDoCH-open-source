@@ -85,6 +85,10 @@ window.__code = 'function Contributing_to (openSource) {\n' +
   '    evangelizing() \n' +
   '      // Github, HackerNews, Reddit, Brigade Network, etc.\n' +
   '\n' +
+  '    stayActive() \n' +
+  '      // Github Issues\n' +
+  '      // Slack channel\n' +
+  '      // Email\n' +
   '  \n' +
   '  }\n' +
   '}'
