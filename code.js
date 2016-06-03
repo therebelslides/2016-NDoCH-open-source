@@ -1,14 +1,14 @@
 window.__code = 'function Contributing_to (openSource) {\n' +
   '  // Trent Oswald \n' +
-  '  //    @therebelrobot \n' +
-  '  //    therebelrobot.com\n' +
-  '  // Dev Bootcamp, April 16th 2016\n' +
+  '  //    Infrastructure Core Team Lead - Code for San Francisco \n' +
+  '  //    @therebelrobot\n' +
+  '  // National Day of Civic Hacking, June 4th 2016\n' +
   '\n' +
   '  what_is(openSource);\n' +
   '\n' +
   '  (openSource !== freeSoftware);\n' +
   '\n' +
-  '  openSource = "source code available to the general public with relaxed or non-existent copyright restrictions";\n' +
+  '  openSource = "source code available to the general public with relaxed or permissive copyright restrictions";\n' +
   '\n' +
   '  openSource = [\n' +
   '    "Rich and Thriving Community",\n' +
@@ -41,7 +41,7 @@ window.__code = 'function Contributing_to (openSource) {\n' +
   '    publicAndPermissiveLicense() \n' +
   '            // MIT, ISC, GPLv3, Apache, etc\n' +
   '    clearDocumentation() \n' +
-  '            // README, CONTRIBUTING, CHANGELOG\n' +
+  '            // README, CONTRIBUTING, CHANGELOG, CODEOFCONDUCT, etc.\n' +
   '  }\n' +
   '\n' +
   '  React // Facebook\n' +
@@ -51,86 +51,40 @@ window.__code = 'function Contributing_to (openSource) {\n' +
   '  .NETframework // C# - Microsoft\n' +
   '\n' +
   '  var howDoIOpenSource = function () {\n' +
-  '    methods = [\n' +
-  '      "Start Your Own",\n' +
-  '      "Contribute to Others"\n' +
+  '\n' +
+  '    url("http://ossmanifesto.org")\n' +
+  '    values = [\n' +
+  '      "Respect",\n' +
+  '      "Collaboration",\n' +
+  '      "Healthy Debates",\n' +
+  '      "Basic Documentation",\n' +
+  '      "Consistent Versioning of releases"\n' +
   '    ]\n' +
   '\n' +
-  '    if(method === "Start Your Own"){\n' +
-  '      releaseOfSourceCode()\n' +
-  '      publicAndPermissiveLicense()\n' +
-  '          // choosealicense.com, tldrlegal.com\n' +
-  '      clearDocumentation()\n' +
-  '         // ossmanifesto.org, c4sf.me/docsquad\n' +
-  '\n' +
-  '      testing() // Tap, Mocha, Nightwatch\n' +
-  '      publishing() // NPM, Gems, LuaRocks\n' +
-  '      evangelizing() \n' +
-  '           // Github, HackerNews, Reddit, IRC\n' +
-  '\n' +
-  '      if(broken) {\n' +
-  '        buildFix()\n' +
-  '        release\n' +
-  '      }\n' +
-  '\n' +
-  '      url("http://ossmanifesto.org")\n' +
-  '      values = [\n' +
-  '        "Respect",\n' +
-  '        "Collaboration",\n' +
-  '        "Healthy Debates",\n' +
-  '        "Basic Documentation",\n' +
-  '        "Consistent Versioning of releases"\n' +
-  '      ]\n' +
-  '      \n' +
-  '    }\n' +
-  '    if(method === "Contribute to Others") {\n' +
-  '      humanInteraction()\n' +
-  '\n' +
-  '      remember(`They\'re coders, \n' +
-  '                 just like you`)\n' +
-  '      remember(`Nobody is born a coder. \n' +
-  '                 We all start somewhere.`)\n' +
-  '      remember(`If you don\'t like a community,\n' +
-  '                 find (or build) a new one`)\n' +
-  '\n' +
-  '      contributionModels = [\n' +
-  '        "Branching", \n' +
-  '           // internal parallel code bases\n' +
-  '        "Forking" \n' +
-  '           // external parallel code base\n' +
-  '      ]\n' +
-  '      openSourceContributions === "Forking"\n' +
-  '\n' +
-  '      CONTRIBUTING.md()\n' +
+  '    releaseOfSourceCode()\n' +
+  '      // Github\n' +
+  '      // Gitlab\n' +
+  '      // Bitbucket\n' +
+  '    publicAndPermissiveLicense()\n' +
+  '      // MIT (Most Common)\n' +
+  '      // ISC (MIT+)\n' +
+  '      // Apache 2\n' +
+  '      // GNU GPLv3\n' +
+  '    clearDocumentation()\n' +
+  '      // Installation Instructions (README)\n' +
+  '      // Changelog (README or CHANGELOG)\n' ++
   '        // How to file an issue\n' +
   '        // What to include\n' +
   '        // How to contribute code\n' +
+  '      // Contributing Guide (README or CONTRIBUTING)\n' +
+  '      // Styling Guides (README or CONTRIBUTING)\n' +
+  '      // Code of Conduct (README or CODEOFCONDUCT)\n' +
   '\n' +
-  '      GithubIssues = [\n' +
-  '        "Ask for LICENSE (if none provided)",\n' +
-  '        "Report found bugs",\n' +
-  '        "Try to replicate logged bugs",\n' +
-  '        "Suggest feature additions"\n' +
-  '      ]\n' +
-  '      remember(`Language / culture / \n' +
-  '                   personality barriers`)\n' +
-  '      remember(`Response times vary \n' +
-  '                   dramatically`)\n' +
+  '    testing() // Tap, Mocha, Nightwatch\n' +
+  '    publishing() // NPM, Gems, LuaRocks\n' +
+  '    evangelizing() \n' +
+  '      // Github, HackerNews, Reddit, Brigade Network, etc.\n' +
   '\n' +
-  '      GithubForking = [\n' +
-  '        "Assist in documentation improvement",\n' +
-  '        "Assist in writing tests",\n' +
-  '        "Try fixing a currently reported bug",\n' +
-  '        "Try fixing a bug you found",\n' +
-  '        "Try adding a proposed feature",\n' +
-  '        "Try adding a feature you would like"\n' +
-  '        // WARNING: It is best practice \n' +
-  '        //          to check in with \n' +
-  '        //          a core contributor before\n' +
-  '        //          adding features.\n' +
-  '      ]\n' +
-  '\n' +
-  '      url("http://up-for-grabs.net")\n' +
-  '    }\n' +
+  '  \n' +
   '  }\n' +
   '}'
