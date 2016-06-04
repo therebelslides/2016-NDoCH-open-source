@@ -1,6 +1,6 @@
 window.__code = 'function Best_Practices_for (openSource) {\n' +
   '  // Trent Oswald \n' +
-  '  //    Infrastructure Core Team Lead - Code for San Francisco \n' +
+  '  //    Infrastructure Core Team Lead - c4sf \n' +
   '  //    therebelrobot.com - @therebelrobot\n' +
   '  // National Day of Civic Hacking, June 4th 2016\n' +
   '\n' +
