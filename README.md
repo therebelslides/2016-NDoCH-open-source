@@ -72,6 +72,8 @@ function Best_Practices_for (openSource) {
     codeOfConduct() 
             // CODEOFCONDUCT.md
             // Contributor Covenant // http://contributor-covenant.org/
+    accessibilityGuidelines() 
+            // ACCESSIBILITY.md
     upToDateDocumentation() 
        // Its not open unless its documented.
        // Its not useful unless its current.
