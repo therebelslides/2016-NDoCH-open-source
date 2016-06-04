@@ -48,6 +48,8 @@ window.__code = 'function Best_Practices_for (openSource) {\n' +
   '    codeOfConduct() \n' +
   '            // CODEOFCONDUCT.md\n' +
   '            // Contributor Covenant\n' + // http://contributor-covenant.org/
+  '    accessibilityGuidelines() \n' +
+  '            // ACCESSIBILITY.md\n' +
   '    upToDateDocumentation() \n' +
   '       // Its not open unless its documented.\n' +
   '       // Its not useful unless its current.\n' +

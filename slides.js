@@ -108,7 +108,10 @@ window.__slides = [
     loc: [48, 50],
     note: 'contributor-covenant.org'
   }, {
-    loc: [50, 53]
+    loc: [50, 52],
+    note: 'Trust: Safe space to work'
+  }, {
+    loc: [52, 55]
   }, {
     loc: [7, 15],
     note: 'Trust is key.'
