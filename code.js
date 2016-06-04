@@ -2,7 +2,7 @@ window.__code = 'function Best_Practices_for (openSource) {\n' +
   '  // Trent Oswald \n' +
   '  //    Infrastructure Core Team Lead - c4sf \n' +
   '  //    therebelrobot.com - @therebelrobot\n' +
-  '  // National Day of Civic Hacking, June 4th 2016\n' +
+  '  // National Day of Civic Hacking, 6/4/16\n' +
   '\n' +
   '  openSource !== freeLunch()\n' +
   '  openSource === trust()\n' +
