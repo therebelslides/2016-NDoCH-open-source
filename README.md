@@ -1,36 +1,11 @@
-# Contributing to Open Source
+# Best Practices in Open Source
+
 *Trent Oswald, `trentoswald``@``therebelrobot.com`, @therebelrobot*
 
+*National Day of Civic Hacking, June 4th 2016*
+
+
 *Note: this is more useful after going through the slides, but feel free to poke around ;)*
-
-## Start Your Own
-
-- [ ] Release Code - Github, Gitlab, Bitbucket, Wherever
-- [ ] Public and Permissive License
-  - [choosealicense.com](http://choosealicense.com)
-  - [tldrlegal.com](http://tldrlegal.com)
-- [ ] Clear Documentation
-  - [OSS Manifesto](http://ossmanifesto.org/)
-  - [doc-squad](http://c4sf.me/docsquad)
-- [ ] Code of Conduct
-  - [Contributor Covenant](http://contributor-covenant.org/)
-- [ ] Testing
-  - Unit (Tap, Tape, Ava, Mocha)
-  - End to End (Nightwatch, Browserstack, Intern.io)
-- [ ] Publish
-  - NPM
-- [ ] Evangelize - Reddit, Github, HackerNews
-
-## Contribute to Others
-
-- [ ] [up-for-grabs.net](http://up-for-grabs.net)
-- [ ] Read `CONTRIBUTING` doc
-- [ ] See where there are needs
-  - Docs
-  - Tests
-  - Triage & replicate
-  - Add fixes
-  - Add features
 
 ## Additional Readings
 
@@ -47,140 +22,59 @@ Trent Oswald | `trentoswald``@``therebelrobot.com` | @therebelrobot (sfbrigade, 
 ## Slide content
 
 ```js
-function Contributing_to (openSource) {
-  // Trent Oswald
-  //    @therebelrobot
-  //    therebelrobot.com
-  // Dev Bootcamp, April 16th 2016
+function Best_Practices_for (openSource) {
+  // Trent Oswald 
+  //    Infrastructure Core Team Lead - c4sf 
+  //    therebelrobot.com - @therebelrobot
+  // National Day of Civic Hacking, 6/4/16
 
-  what_is(openSource);
+  openSource !== freeLunch()
+  openSource === trust()
 
-  (openSource !== freeSoftware);
+  trust.access_source()
+  trust.legally()
+  trust.contribute()
+  trust.governance_and_management()
+  trust.upgrading_and_mantaining()
+  trust.safe_space_to_work()
 
-  openSource = "source code available to the general public with relaxed or non-existent copyright restrictions";
-
-  openSource = [
-    "Rich and Thriving Community",
-    "Shared Values",
-    "Open Governance",
-    "Ability and Freedom to Iterate",
-    "Passion for Innovation"
-  ]
-
-  openSource << FreeSoftwareFoundation(1997)
-
-  openSourceInitiative(1998)
-
-  Netscape() // Now Mozilla Firefox
-  Debian()
-  LinuxKernel()
-
-  openSource = [
-    "Media Content", // Wikimedia Foundation
-    "Hardware", // Raspberry Pi, Arduino
-    "Beverages",// Open Source Cola, Brewtopia
-    "Firearms", // 3D Printed firearms
-    "Medicine", // Tropical Disease Initiative
-    "Religion" // Open Siddur Project, Open Source Yoga Unity
-  ]
-
-  var whatMakesOpenSource = function () {
-    releaseOfSourceCode()
-            // Github, Gitlab, Bitbucket, etc
-    publicAndPermissiveLicense()
-            // MIT, ISC, GPLv3, Apache, etc
-    clearDocumentation()
-            // README, CONTRIBUTING, CHANGELOG
+  var howDoIEstablishThisTrust = function () {
+      releaseOfSourceCode() 
+            // Github, Gitlab, Bitbucket, etc 
+    publicAndPermissiveLicense()  // choosealicense.org tldrlegal.com
+            // LICENSE
+            // MIT, ISC
+            // Apache 2
+            // GPLv3
+            // WTFPL
+    contributingGuide()  // branch management, pull request policies, style guides
+            // CONTRIBUTING.md
+            // How to get started
+            // How to add/request new features
+            // Issue triaging
+            // Language Translating
+            // Interacting with the Community
+            // Branch Management Flow
+            // Pull Request Policies
+            // Coding Style Guides
+    workInTheOpen() 
+            // Meeting Minutes
+            // Github Issues
+            // Slack
+            // Google Hangouts on Air
+    changelogAndVersioning() 
+            // CHANGELOG.md // http://keepachangelog.org
+            // Semantic Versioning // http://semver.com
+    testingAndCoverage() 
+            // unit testing
+            // integration testing 
+            // testing coverage // http://codeclimate.com
+    codeOfConduct() 
+            // CODEOFCONDUCT.md
+            // Contributor Covenant // http://contributor-covenant.org/
+    upToDateDocumentation() 
+       // Its not open unless its documented.
+       // Its not useful unless its current.
   }
-
-  React // Facebook
-  RubyOnRails // David Hansson
-  Linux // The Linux Foundation
-  Android // Google
-  .NETframework // C# - Microsoft
-
-  var howDoIOpenSource = function () {
-    methods = [
-      "Start Your Own",
-      "Contribute to Others"
-    ]
-
-    if(method === "Start Your Own"){
-      releaseOfSourceCode()
-      publicAndPermissiveLicense()
-          // choosealicense.com, tldrlegal.com
-      clearDocumentation()
-         // ossmanifesto.org, c4sf.me/docsquad
-
-      testing() // Tap, Mocha, Nightwatch
-      publishing() // NPM, Gems, LuaRocks
-      evangelizing()
-           // Github, HackerNews, Reddit, IRC
-
-      if(broken) {
-        buildFix()
-        release
-      }
-
-      url("http://ossmanifesto.org")
-      values = [
-        "Respect",
-        "Collaboration",
-        "Healthy Debates",
-        "Basic Documentation",
-        "Consistent Versioning of releases"
-      ]
-
-    }
-    if(method === "Contribute to Others") {
-      humanInteraction()
-
-      remember(`They\'re coders,
-                 just like you`)
-      remember(`Nobody is born a coder.
-                 We all start somewhere.`)
-      remember(`If you don\'t like a community,
-                 find (or build) a new one`)
-
-      contributionModels = [
-        "Branching",
-           // internal parallel code bases
-        "Forking"
-           // external parallel code base
-      ]
-      openSourceContributions === "Forking"
-
-      CONTRIBUTING.md()
-        // How to file an issue
-        // What to include
-        // How to contribute code
-
-      GithubIssues = [
-        "Ask for LICENSE (if none provided)",
-        "Report found bugs",
-        "Try to replicate logged bugs",
-        "Suggest feature additions"
-      ]
-      remember(`Language / culture /
-                   personality barriers`)
-      remember(`Response times vary
-                   dramatically`)
-
-      GithubForking = [
-        "Assist in documentation improvement",
-        "Assist in writing tests",
-        "Try fixing a currently reported bug",
-        "Try fixing a bug you found",
-        "Try adding a proposed feature",
-        "Try adding a feature you would like"
-        // WARNING: It is best practice
-        //          to check in with
-        //          a core contributor before
-        //          adding features.
-      ]
-
-      url("http://up-for-grabs.net")
-    }
-  }
-}
+} 
 ```
