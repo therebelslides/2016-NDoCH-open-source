@@ -52,4 +52,4 @@ window.__code = 'function Best_Practices_for (openSource) {\n' +
   '       // Its not open unless its documented.\n' +
   '       // Its not useful unless its current.\n' +
   '  }\n' +
-  '}'
+  '} '
